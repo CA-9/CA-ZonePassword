@@ -36,6 +36,7 @@ Cadev.Zones = {
         requiresPassword = false,
         password = nil,
         event = "mtc-cityhall:client:open",
+        debugPoly = false,
     },
     {
         name = "Helipad - MRPD",
@@ -45,6 +46,6 @@ Cadev.Zones = {
         requiresPassword = true,
         password = "pd-heli",
         event = "CA-ALERT",
-        debugPoly = true,
+        debugPoly = false,
     },
 }
