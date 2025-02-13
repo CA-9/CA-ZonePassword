@@ -82,7 +82,6 @@ else
     QBCore.Functions.Notify('You have entered the wrong password', 'error')
 end
 end
-TriggerEvent(locationData.event)
 end)
 
 RegisterNetEvent("CA-ALERT", function()
